@@ -27,6 +27,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="startToNext" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Ua-2Y-jSO"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="m2h-NQ-dIj">
                                 <rect key="frame" x="102" y="44" width="210" height="676"/>
@@ -67,6 +70,12 @@
                             <constraint firstItem="lMG-zu-Kfz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="y7c-kS-CeO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenColorLabel" destination="ZMd-FH-PHP" id="15y-dW-324"/>
+                        <outlet property="redColorLabel" destination="OTB-3L-nYf" id="6yD-Rb-uIZ"/>
+                        <outlet property="startButon" destination="lMG-zu-Kfz" id="q19-bT-dTJ"/>
+                        <outlet property="yellowColorLabel" destination="ifk-7f-w4w" id="OSe-tf-dkn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
